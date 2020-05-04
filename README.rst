@@ -28,5 +28,10 @@ sudo apt autoremove
 
 sudo cp 45-allow-colord.pkla /etc/polkit-1/localauthority/50-local.d/
 
+Python modules:
+ sudo apt install python3-pip
+ python3 -m pip install --upgrade pip
+ sudo python3 -m pip install -U jetson-stats
+
 xrdp (to figure out once):
 sudo adduser xrdp ssl-cert
