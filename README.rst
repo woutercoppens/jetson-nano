@@ -26,5 +26,7 @@ sudo apt autoremove
 
 sudo cp 45-allow-colord.pkla /etc/polkit-1/localauthority/50-local.d/
 
+sudo usermod -aG docker wouter
+
 xrdp (to figure out once):
 sudo adduser xrdp ssl-cert
